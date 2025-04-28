@@ -9,7 +9,7 @@ In this repository, we implement and compare three distinct machine learning and
 2. **XGBoost** 🚀 - A powerful gradient boosting algorithm known for its efficiency and high predictive performance, especially on structured/tabular data.
 3. **ARIMA** 📈 - A time series forecasting model that uses historical data to predict future values, particularly useful for sequential and time-dependent GHG data.
 
-We evaluate these models based on multiple performance metrics, including **Mean Absolute Error (MAE)**, **Root Mean Squared Error (RMSE)**, and **R² Score**, to determine which model offers the best prediction capability.
+We evaluate these models based on multiple performance metrics, including **Mean Absolute Error (MAE)**, **Root Mean Squared Error (MSE)**, and **R² Score**, to determine which model offers the best prediction capability.
 
 ## ⚙️ Features
 - **Data Preprocessing**: Handling missing values, feature scaling, and splitting the data into training and test sets.
@@ -25,28 +25,20 @@ The objective of this evaluation is to determine the best model for predicting G
 
 ## 🚀 Requirements
 - Python 3.x
-- Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Statsmodels, Matplotlib, Seaborn
+- Libraries : pandas, numpy, matplotlib, seaborn, joblib, scipy, scikit-learn, statsmodels, pmdarima, xgboost
 
 ## 📊 Results
 The results will be presented in a clear and concise manner, including:
 - A comparison of the models' performance.
 - Visualizations of the prediction accuracy.
-- Recommendations for the most suitable model based on performance metrics.
 
 ## 📥 How to Run
 1. Clone this repository.
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-
-
+2. Install the required libraries
+3. Run code: *python/python3/py* + Name project
 
 ### What’s included:
 - The project description and overview.
 - Models used (Random Forest, XGBoost, ARIMA).
 - Dataset information (World Bank).
 - Steps on how to run the project.
-
-You can copy and paste the above content into a `README.md` file for your GitHub repository.
-
-Let me know if you need further modifications!
