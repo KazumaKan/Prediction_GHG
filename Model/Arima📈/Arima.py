@@ -2,7 +2,7 @@
 # 📌 1. Import Libraries
 # ========================
 import pandas as pd
-import numpy
+import numpy as np
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -20,9 +20,7 @@ from statsmodels.tsa.api import VAR
 # ========================
 # 📂 2. Load Dataset
 # ========================
-# 📂 2. Load Dataset
-# ========================
-DATA_PATH = os.path.join("/AvailableData/GHG_cleaned_v1.csv")
+DATA_PATH = os.path.join("../Dataset/GHG_cleaned_v1.csv")
 GHG_DATA = pd.read_csv(DATA_PATH)
 print("🔹 Columns:", GHG_DATA.columns)
 
