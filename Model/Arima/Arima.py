@@ -2,7 +2,7 @@
 # 📌 1. Import Libraries
 # ========================
 import pandas as pd
-import numpy as np
+import numpy
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -20,10 +20,11 @@ from statsmodels.tsa.api import VAR
 # ========================
 # 📂 2. Load Dataset
 # ========================
-DATA_PATH = os.path.join("..", "..", "AvailableData", "GHG_cleaned_v1.csv")
-df = pd.read_csv(DATA_PATH)
-print("🔹 Columns:", df.columns)
-
+# 📂 2. Load Dataset
+# ========================
+DATA_PATH = os.path.join("/AvailableData/GHG_cleaned_v1.csv")
+GHG_DATA = pd.read_csv(DATA_PATH)
+print("🔹 Columns:", GHG_DATA.columns)
 
 # ========================
 # 🧹 3. Data Cleaning & Overview
