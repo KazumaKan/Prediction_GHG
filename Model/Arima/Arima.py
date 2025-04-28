@@ -20,9 +20,10 @@ from statsmodels.tsa.api import VAR
 # ========================
 # 📂 2. Load Dataset
 # ========================
-DATA_PATH = os.path.join("../Dataset/GHG_cleaned_v1.csv")
-GHG_DATA = pd.read_csv(DATA_PATH)
-print("🔹 Columns:", GHG_DATA.columns)
+DATA_PATH = os.path.join("..", "..", "AvailableData", "GHG_cleaned_v1.csv")
+df = pd.read_csv(DATA_PATH)
+print("🔹 Columns:", df.columns)
+
 
 # ========================
 # 🧹 3. Data Cleaning & Overview
