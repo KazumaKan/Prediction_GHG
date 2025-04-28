@@ -2,11 +2,9 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
-from statsmodels.tsa.arima.model import ARIMA
-from pmdarima import auto_arima
 
 # อ่านไฟล์ CSV
-file_path = "../Dataset/DataSet-F.csv"  # ตรวจสอบว่าไฟล์อยู่ตำแหน่งนี้จริง
+file_path = "../RawData/DataSet_Total_Gas.csv"  # ตรวจสอบว่าไฟล์อยู่ตำแหน่งนี้จริง
 df = pd.read_csv(file_path)
 
 # แสดงข้อมูล 5 แถวแรก เพื่อตรวจสอบว่าโหลดมาถูกต้อง
