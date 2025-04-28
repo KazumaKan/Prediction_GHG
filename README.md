@@ -12,10 +12,10 @@ In this repository, we implement and compare three distinct machine learning and
 We evaluate these models based on multiple performance metrics, including **Mean Absolute Error (MAE)**, **Root Mean Squared Error (MSE)**, and **R² Score**, to determine which model offers the best prediction capability.
 
 ## ⚙️ Features
-- **Data Preprocessing**: Handling missing values, feature scaling, and splitting the data into training and test sets.
-- **Model Training**: Training and fine-tuning the Random Forest, XGBoost, and ARIMA models.
-- **Model Evaluation**: Comparing model performance using standard evaluation metrics.
-- **Visualization**: Plotting results to visualize the accuracy and effectiveness of each model.
+- **Data Preprocessing** : Handling missing values, feature scaling, and splitting the data into training and test sets.
+- **Model Training** : Training and fine-tuning the Random Forest, XGBoost, and ARIMA models.
+- **Model Evaluation** : Comparing model performance using standard evaluation metrics.
+- **Visualization** : Plotting results to visualize the accuracy and effectiveness of each model.
 
 ## 🌐 Dataset
 The dataset used for this project comes from the **World Bank**. It includes historical data on Greenhouse Gas (GHG) emissions across different countries, which is used as the basis for training and testing the models.
@@ -35,9 +35,9 @@ The results will be presented in a clear and concise manner, including:
 ## 📥 How to Run
 1. Clone this repository.
 2. Install the required libraries
-3. Run code: *python/python3/py* + Name project
+3. Run code : *python/python3/py* + Name project
 
-### What’s included:
+### What’s included :
 - The project description and overview.
 - Models used (Random Forest, XGBoost, ARIMA).
 - Dataset information (World Bank).
