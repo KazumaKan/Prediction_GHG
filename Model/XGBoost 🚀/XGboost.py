@@ -3,8 +3,10 @@ import matplotlib.pyplot as plt
 from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import os 
 
-df = pd.read_csv("GHG_cleaned_v1.csv")  
+DATA_PATH = os.path.join("..", "..", "AvailableData", "GHG_cleaned_v1.csv")
+df = pd.read_csv(DATA_PATH)
 
 features = ['CH4', 'CO2', 'F-Gas', 'N2O']
 target = 'GHG'
@@ -13,8 +15,8 @@ y = df[target]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-model = XGBRegressor( objective='reg:squarederror', n_estimators=100, 
-                      learning_rate=0.1, max_depth=3, random_state=42)
+model = XGBRegressor(objective='reg:squarederror', n_estimators=100, 
+                     learning_rate=0.1, max_depth=3, random_state=42)
 
 model.fit(X_train, y_train)
 

@@ -1,31 +1,15 @@
-pip install scikit-learn pandas numpy matplotlib
+pip install scikit-learn pandas numpy matplotlib xgboost joblib scipy statsmodels pmdarima seaborn
     Libraries Used:
-        - scikit-learn → Used for building the Random Forest model
+        - scikit-learn → Used for building the Random Forest model and evaluation metrics
         - pandas → Used for handling tabular data (DataFrame)
-        - numpy → Used for handling numerical data (Arrays and Matrices)
-        - matplotlib → Used for creating graphs to visualize the data
-
-pip install xgboost
-    Libraries Used:
+        - numpy → Used for numerical operations (Arrays, stats)
+        - matplotlib → Used for creating plots and charts
         - xgboost → Used for building the XGBoost model
-
-pip install tensorflow
-    Libraries Used:
-        - tensorflow → Used for building the Deep Learning model
-
-pip install streamlit
-    Libraries Used:
-        - streamlit → Used for creating web applications
-
-pip install requests joblib pymongo
-    Libraries Used:
-        - requests → Used for making HTTP requests
         - joblib → Used for saving and loading models
-        - pymongo → Used for connecting to MongoDB
-
-pip install python-socketio
-    Libraries Used:
-        - python-socketio → Used for connecting to WebSocket Server
+        - scipy → Used for statistical tests  
+        - statsmodels → Used for time series analysis (ADF test, ACF, PACF)
+        - pmdarima → Used for automatic ARIMA model selection
+        - seaborn → Used for statistical data visualization
 
 Extension: Data Wrangler for Viewing Datasets
     - How to use:
@@ -57,34 +41,18 @@ Run Code:
 
 ##################################################################################
 
-pip install scikit-learn pandas numpy matplotlib
+pip install scikit-learn pandas numpy matplotlib xgboost joblib scipy statsmodels pmdarima seaborn
     รายละเอียดไลบรารีที่ใช้
        - scikit-learn → ใช้สำหรับสร้างโมเดล Random Forest
        - pandas → ใช้จัดการกับข้อมูลตาราง (DataFrame)
        - numpy → ใช้จัดการข้อมูลเชิงตัวเลข (Array และ Matrix)
        - matplotlib → ใช้สำหรับสร้างกราฟแสดงผลข้อมู
-
-pip install xgboost
-    รายละเอียดไลบรารีที่ใช้
-        - xgboost → ใช้สำหรับสร้างโมเดล XGBoost
-
-pip install tensorflow
-    รายละเอียดไลบรารีที่ใช้
-        - tensorflow → ใช้สำหรับสร้างโมเดล Deep Learning
-
-pip install streamlit
-    รายละเอียดไลบรารีที่ใช้
-        - streamlit → ใช้สำหรับสร้างเว็บแอพพลิเคชั่น
-
-pip install requests joblib pymongo
-    รายละเอียดไลบรารีที่ใช้
-        - requests → ใช้สำหรับทำ HTTP Request
-        - joblib → ใช้สำหรับบันทึกและโหลดโมเดล
-        - pymongo → ใช้สำหรับเชื่อมต่อกับ MongoDB
-
-pip install python-socketio
-    รายละเอียดไลบรารีที่ใช้
-        - python-socketio → ใช้สำหรับเชื่อมต่อกับ WebSocket Server
+       - xgboost → ใช้สำหรับสร้างโมเดล XGBoost
+       - joblib → ใช้ในการบันทึกและโหลดโมเดล
+       - scipy → ใช้สำหรับการทดสอบทางสถิติ
+       - statsmodels → ใช้สำหรับการวิเคราะห์อนุกรมเวลา (Time Series) เช่น ADF test, ACF, PACF
+       - pmdarima → ใช้ในการเลือกโมเดล ARIMA โดยอัตโนมัติ
+       - seaborn → ใช้ในการสร้างการแสดงผลข้อมูลทางสถิติ (Data Visualization)
 
 Extension : Data Wrangler ในการดู DataSet
             - วิธีใช้
