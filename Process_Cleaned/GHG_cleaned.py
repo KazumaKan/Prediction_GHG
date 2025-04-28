@@ -248,6 +248,6 @@ df = df.round(2)
 
 # บันทึก DataFrame เป็นไฟล์ CSV โดยไม่เก็บ index
 # 📂 บันทึก DataFrame เป็นไฟล์ CSV
-output_file_path = "../Dataset/GHG_cleaned_v1.csv"
+output_file_path = "/AvailableData/GHG_cleaned_v1.csv"
 df.to_csv(output_file_path, index=False)
 
