@@ -248,14 +248,5 @@ df = df.round(2)
 
 # บันทึก DataFrame เป็นไฟล์ CSV โดยไม่เก็บ index
 # 📂 บันทึก DataFrame เป็นไฟล์ CSV
-<<<<<<< HEAD
-<<<<<<< HEAD
-output_file_path = "../AvailableData/GHG_cleaned_v1.csv"
-=======
-output_file_path = "/AvailableData/GHG_cleaned_v1.csv"
->>>>>>> 112639392d26b6afa987a8fc028edc7e40547060
-=======
-output_file_path = "/AvailableData/GHG_cleaned_v1.csv"
->>>>>>> d27183e509999b1b037d1da5654449a21acaaa18
+output_file_path = "../AvailableData/GHG_cleaned_vtest.csv"
 df.to_csv(output_file_path, index=False)
-
