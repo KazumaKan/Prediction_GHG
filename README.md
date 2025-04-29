@@ -3,7 +3,7 @@
 This project is part of the CPE408 course, where we evaluate and compare the performance of three different models for predicting Greenhouse Gas (GHG) emissions. The goal is to assess the accuracy and efficiency of each model and provide insights into how they can be applied for environmental impact analysis.
 
 ## 📚 Project Overview
-In this repository, we implement and compare three distinct machine learning and statistical models to predict GHG emissions:
+In this repository, we implement and compare three distinct machine learning and statistical models to predict GHG emissions :
 
 1. **Random Forest** 🌲 - An ensemble learning method that uses multiple decision trees to improve prediction accuracy and handle complex, non-linear data.
 2. **XGBoost** 🚀 - A powerful gradient boosting algorithm known for its efficiency and high predictive performance, especially on structured/tabular data.
